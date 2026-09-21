@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+@import './tokens.css';
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-onyx);
+  color: var(--color-arctic);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: rgb(212 175 55 / 0.35);
+  color: var(--color-arctic);
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: calc(var(--z-toast) + 1);
+  border-radius: 0.25rem;
+  background: var(--color-gold);
+  color: var(--color-onyx);
+  padding: 0.5rem 0.75rem;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}

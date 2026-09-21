@@ -1,0 +1,7 @@
+project_id = "pull-syndicate"
+
+[api]
+enabled = true
+
+[functions.submit-contact]
+verify_jwt = false

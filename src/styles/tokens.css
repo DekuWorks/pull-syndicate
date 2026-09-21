@@ -1,0 +1,41 @@
+@theme {
+  --color-onyx: #0b0b0d;
+  --color-arctic: #f5f5f5;
+  --color-gold: #d4af37;
+  --color-gold-dim: #9a7b20;
+  --color-purple: #7c3aed;
+  --color-cyan: #00e5ff;
+  --font-display: 'Orbitron', sans-serif;
+  --font-subhead: 'Montserrat', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --shadow-card: 0 12px 40px rgb(0 0 0 / 0.45);
+  --shadow-glow-gold: 0 0 32px rgb(212 175 55 / 0.35);
+  --shadow-glow-cyan: 0 0 28px rgb(0 229 255 / 0.25);
+}
+
+:root {
+  --duration-fast: 150ms;
+  --duration-base: 280ms;
+  --duration-slow: 600ms;
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-cinematic: cubic-bezier(0.77, 0, 0.18, 1);
+  --z-base: 0;
+  --z-raised: 10;
+  --z-sticky: 20;
+  --z-nav: 40;
+  --z-drawer: 50;
+  --z-modal: 60;
+  --z-intro: 70;
+  --z-toast: 80;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

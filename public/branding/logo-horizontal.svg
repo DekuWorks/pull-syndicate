@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-label="Pull Syndicate">
+  <rect width="520" height="120" fill="#0B0B0D"/>
+  <path fill="#D4AF37" d="M46 18 60 12l14 6 8-4 2 10-10 3 4 8-12-2-6 8-6-8-12 2 4-8-10-3 2-10z"/>
+  <path fill="#F5F5F5" d="M28 46h32c13 0 22 8 22 20 0 9-5 16-13 19l14 21H63L51 85H44v23H28V46zm16 25h12c6 0 9-3 9-8s-3-8-9-8H44v16z"/>
+  <text x="150" y="62" fill="#F5F5F5" font-family="Orbitron, sans-serif" font-size="28" letter-spacing="6">PULL SYNDICATE</text>
+  <text x="150" y="88" fill="#D4AF37" font-family="Montserrat, sans-serif" font-size="12" letter-spacing="6">COLLECT " BUILD " BELONG</text>
+</svg>
