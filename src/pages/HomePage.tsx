@@ -41,8 +41,8 @@ export function HomePage() {
         <div aria-hidden className="absolute inset-0 opacity-40 [background-image:radial-gradient(#d4af37_0.6px,transparent_0.6px)] [background-size:18px_18px]" />
         <Container className="relative grid min-h-[100dvh] items-center gap-12 py-20 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <p className="font-subhead text-xs tracking-[0.32em] text-gold">PULL SYNDICATE</p>
-            <h1 className="mt-5 font-display text-5xl leading-[0.92] tracking-[0.06em] sm:text-7xl">
+            <p className="font-subhead text-xs tracking-[0.36em] text-gold">COLLECT • BUILD • BELONG</p>
+            <h1 className="mt-5 font-display text-5xl leading-[0.95] tracking-[0.12em] sm:text-7xl">
               COLLECT.
               <br />
               BUILD.
@@ -53,32 +53,29 @@ export function HomePage() {
               Cards. LEGO. Collectibles. Community. Pull Syndicate is more than a store — it is a
               movement.
             </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-8">
               <MagneticButton>
                 <Link
-                  to="/shop"
-                  className="inline-flex min-h-11 items-center justify-center rounded-md bg-gold px-5 text-onyx hover:bg-gold-dim"
+                  to="/community"
+                  className="inline-flex min-h-11 items-center justify-center rounded-md bg-gold px-5 font-subhead text-xs uppercase tracking-[0.18em] text-onyx hover:bg-gold-dim"
                 >
-                  Shop now
+                  Join the Syndicate
                 </Link>
               </MagneticButton>
-              <Link
-                to="/community"
-                className="inline-flex min-h-11 items-center justify-center rounded-md border border-arctic/20 px-5 text-arctic hover:border-gold hover:text-gold"
-              >
-                Join the Syndicate
-              </Link>
             </div>
           </div>
           <Parallax className="relative mx-auto grid w-full max-w-md place-items-center">
-            <div className="relative aspect-[4/5] w-full rounded-3xl border border-gold/30 bg-gradient-to-b from-arctic/5 to-onyx shadow-glow-gold">
-              <div className="absolute inset-6 rounded-2xl border border-gold/20" />
-              <div className="absolute inset-0 grid place-items-center">
-                <PsMark className="h-36 w-36" />
+            <div className="relative grid aspect-square w-full place-items-center rounded-3xl border border-gold/25 bg-black shadow-glow-gold">
+              <div className="grid w-[80%] justify-items-center gap-6">
+                <PsMark className="h-32 w-32" />
+                <img
+                  src="/branding/logo-wordmark.jpg"
+                  alt="Pull Syndicate"
+                  className="logo-on-black w-full object-contain"
+                  width={420}
+                  height={80}
+                />
               </div>
-              <p className="absolute bottom-8 left-0 right-0 text-center font-subhead text-xs tracking-[0.28em] text-gold">
-                PULL SYNDICATE
-              </p>
             </div>
           </Parallax>
         </Container>

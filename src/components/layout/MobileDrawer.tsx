@@ -58,12 +58,6 @@ export function MobileDrawer({
             {item.label}
           </NavLink>
         ))}
-        <NavLink to="/shop" onClick={onClose} className="min-h-11 py-3 text-gold">
-          Cart
-        </NavLink>
-        <NavLink to="/contact" onClick={onClose} className="min-h-11 py-3">
-          Account
-        </NavLink>
       </nav>
     </div>
   )

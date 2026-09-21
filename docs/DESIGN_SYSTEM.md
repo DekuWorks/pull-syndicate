@@ -27,7 +27,7 @@ Gold is the primary accent. Purple and cyan support interaction, technology feat
 
 | Role | Family | Rule |
 | --- | --- | --- |
-| Display / headlines | Orbitron | Short headlines only |
+| Display / headlines | Michroma (Orbitron fallback) | Short headlines only. Matches the official lockup wordmark. |
 | Subheads | Montserrat Semibold | Section labels, portals |
 | UI / body | Inter | All long copy, forms, nav |
 

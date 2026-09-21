@@ -45,7 +45,7 @@ export function CinematicIntro() {
           <button
             type="button"
             onClick={finish}
-            className="absolute right-5 top-5 text-sm uppercase tracking-[0.2em] text-arctic/70 hover:text-gold"
+            className="absolute right-5 top-5 font-subhead text-xs uppercase tracking-[0.22em] text-arctic/70 hover:text-gold"
           >
             Skip intro
           </button>
@@ -58,7 +58,7 @@ export function CinematicIntro() {
             />
             <LogoReveal className="h-24 w-24" />
             <motion.p
-              className="font-display text-3xl tracking-[0.28em] text-arctic sm:text-4xl"
+              className="font-display text-2xl tracking-[0.28em] text-arctic sm:text-3xl"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.5 }}
@@ -66,7 +66,7 @@ export function CinematicIntro() {
               PULL SYNDICATE
             </motion.p>
             <motion.p
-              className="font-subhead text-sm tracking-[0.32em] text-gold"
+              className="font-subhead text-xs tracking-[0.32em] text-gold"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.2, duration: 0.5 }}

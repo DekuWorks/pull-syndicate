@@ -17,6 +17,6 @@ export function organisationJsonLd() {
     name: siteName,
     url: siteUrl,
     slogan: 'Collect • Build • Belong',
-    logo: `${siteUrl}/branding/logo-mark.svg`,
+    logo: `${siteUrl}/branding/logo-lockup.jpg`,
   }
 }
